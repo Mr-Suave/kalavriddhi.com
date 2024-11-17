@@ -14,7 +14,7 @@ https://github.com/Mr-Suave/KalaVriddhi.git
 
 ## UML Diagrams
 ### Class Diagram
-
+![alt-text](UML DIagrams/class_diagrams..jpg)
 
 
 # Team:-
