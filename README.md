@@ -6,6 +6,9 @@ A website to learn about the culture and rich heritage of india through 3d visua
 # How to run the website
 Go to kalavriddhi folder -> index.html file and run it
 
+# Deployment Link
+coming soon
+
 ## Note
 
 This is a new repo made for submission reasons because the old repo had issues with backend. To check team member contributions through commits check the old repo :-
