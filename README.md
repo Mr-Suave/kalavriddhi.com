@@ -15,7 +15,9 @@ https://github.com/Mr-Suave/KalaVriddhi.git
 ## UML Diagrams
 ### Class Diagram
 <img src="UML DIagrams/class_diagrams..jpg">
+
 ### Sequence Diagram
+<img src="UML DIagrams/sequence diagrams.png">
 
 
 
