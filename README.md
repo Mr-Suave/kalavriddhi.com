@@ -11,6 +11,7 @@ Go to kalavriddhi folder -> index.html file and run it
 This is a new repo made for submission reasons because the old repo had issues with backend. To check team member contributions through commits check the old repo :-
 https://github.com/Mr-Suave/KalaVriddhi.git
 
+
 # Team:-
 
 Aryan Chauhan - CS23B009
