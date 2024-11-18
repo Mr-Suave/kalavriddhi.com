@@ -7,7 +7,7 @@ A website to learn about the culture and rich heritage of india through 3d visua
 Go to kalavriddhi folder -> index.html file and run it
 
 # Deployment Link
-coming soon
+[www.kalavriddhi.com](https://kalavriddhi-frontend-6cyz.onrender.com/)
 
 ## Note
 
