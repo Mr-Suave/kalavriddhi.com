@@ -15,6 +15,14 @@ This is a new repo made for submission reasons because the old repo had issues w
 
 https://github.com/Mr-Suave/KalaVriddhi.git
 
+## To Login in as Admin and view Admin page
+
+Login Credentials :-
+
+Username:- KalaVriddhi Password:- kalavriddhi
+
+(be sure to tick the "are you admin") checkbox
+
 ## UML Diagrams
 ### Class Diagram
 <img src="UML DIagrams/class_diagrams..jpg">
