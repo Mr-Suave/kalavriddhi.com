@@ -9,11 +9,6 @@ Go to kalavriddhi folder -> index.html file and run it
 # Deployment Link
 https://kalavriddhi-frontend-6cyz.onrender.com/
 
-## Note
-
-This is a new repo made for submission reasons because the old repo had issues with backend. To check team member contributions through commits check the old repo :-
-
-https://github.com/Mr-Suave/KalaVriddhi.git
 
 ## To Login in as Admin and view Admin page
 
