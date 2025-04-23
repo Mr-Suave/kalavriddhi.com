@@ -1,0 +1,151 @@
+=== ALL FUNCTIONS ===
+script.js::displayLeaderboard
+script.js::displayQ1
+script.js::displayQ2
+script.js::displayQ3
+script.js::displayQ4
+script.js::displayQ5
+script.js::displayResults
+script.js::fetchRandomQuestions
+script.js::generateLeaderboard
+script.js::getRank
+script.js::restartQuiz
+script.js::startQuiz
+script.js::startTimer
+script.js::updateAnsweredStatus
+script.js::updateTimerDisplay
+script.js::deleteMudra
+script.js::renderDanceModels
+script.js::renderListOfMudras
+script.js::retreiveDanceModels
+script.js::retreiveMudras
+script.js::runScene
+script.js::displayQuestions
+script.js::fetchQuestions
+script.js::shuffle
+script.js::shuffle
+script.js::startTimer
+script.js::stopTimer
+popup_script.js::closePopup
+script.js::closePopup
+script.js::Validate
+script.js::Validate1
+map-interact.js::isTouchEnabled
+map-interact.js::tryaddEvent
+renderarala.js::getModelfromDB
+renderarala.js::openScene
+renderardhachandra.js::getModelfromDB
+renderardhachandra.js::openScene
+renderardhapataka.js::modelScene
+renderchandrakala.js::getModelfromDB
+renderchandrakala.js::openScene
+renderkartarimukha.js::getModelfromDB
+renderkartarimukha.js::openScene
+renderkatamukha.js::getModelfromDB
+renderkatamukha.js::openScene
+rendermrigashirsha.js::getModelfromDB
+rendermrigashirsha.js::openScene
+renderpataka.js::getModelfromDB
+renderpataka.js::openScene
+rendersarpashirsha.js::getModelfromDB
+rendersarpashirsha.js::openScene
+rendershukatunda.js::getModelfromDB
+rendershukatunda.js::openScene
+rendersimhamukha.js::getModelfromDB
+rendersimhamukha.js::openScene
+rendersuchi.js::getModelfromDB
+rendersuchi.js::openScene
+rendertripataka.js::getModelfromDB
+rendertripataka.js::openScene
+script.js::openModal
+script.js::showProgress
+script.js::toggleVisibility
+script.js::analyzeFrequency
+script.js::disableScroll
+script.js::displayFileName
+script.js::getDominantFrequency
+script.js::getRandomIndex
+script.js::getS1
+script.js::getS2
+script.js::getS3
+script.js::getSequence
+script.js::getarray
+script.js::makeMainScene
+script.js::renderOnSmallCanvas
+script.js::resetStartButton
+script.js::startAnalysis
+
+=== FUNCTION CALL GRAPH ===
+script.js::displayLeaderboard --> script.js::getRank, script.js::generateLeaderboard, script.js::getElementById, script.js::createElement, script.js::add, script.js::add, script.js::add, script.js::appendChild, script.js::addEventListener
+script.js::displayQ1 --> script.js::querySelectorAll, script.js::addEventListener, script.js::updateAnsweredStatus, script.js::addEventListener, script.js::displayQ2
+script.js::displayQ2 --> script.js::addEventListener, script.js::displayQ1, script.js::querySelectorAll, script.js::addEventListener, script.js::updateAnsweredStatus, script.js::addEventListener, script.js::displayQ3
+script.js::displayQ3 --> script.js::querySelectorAll, script.js::addEventListener, script.js::updateAnsweredStatus, script.js::addEventListener, script.js::displayQ2, script.js::addEventListener, script.js::displayQ4
+script.js::displayQ4 --> script.js::querySelectorAll, script.js::addEventListener, script.js::updateAnsweredStatus, script.js::addEventListener, script.js::displayQ3, script.js::addEventListener, script.js::displayQ5
+script.js::displayQ5 --> script.js::querySelectorAll, script.js::addEventListener, script.js::updateAnsweredStatus, script.js::addEventListener, script.js::displayQ4, script.js::addEventListener, script.js::clearInterval, script.js::pause, script.js::pause, script.js::pause, script.js::displayResults, script.js::getElementById, script.js::getElementById
+script.js::displayResults --> script.js::setTimeout, script.js::pause, script.js::removeEventListener, script.js::addEventListener, script.js::addEventListener
+script.js::fetchRandomQuestions --> script.js::fetch, script.js::json, script.js::getElementById, script.js::querySelector, script.js::querySelector, script.js::querySelector, script.js::querySelector, script.js::querySelector, script.js::push, script.js::error, script.js::catch, script.js::error
+script.js::generateLeaderboard --> script.js::sort, script.js::random, script.js::slice, script.js::map, script.js::floor, script.js::random, script.js::getElementById, script.js::sort
+script.js::getRank --> script.js::getElementById
+script.js::restartQuiz --> script.js::fetchRandomQuestions, script.js::startQuiz
+script.js::startQuiz --> script.js::clearInterval, script.js::updateTimerDisplay, script.js::updateAnsweredStatus, script.js::addEventListener, script.js::startTimer, script.js::displayQ1
+script.js::startTimer --> script.js::clearInterval, script.js::setInterval, script.js::updateTimerDisplay, script.js::play, script.js::pause, script.js::play, script.js::clearInterval, script.js::pause, script.js::play, script.js::displayResults
+script.js::updateTimerDisplay --> script.js::floor, script.js::addEventListener, script.js::getElementById, script.js::trim, script.js::fetchRandomQuestions, script.js::startQuiz, script.js::alert
+script.js::deleteMudra --> script.js::fetch, script.js::alert, script.js::retreiveMudras, script.js::json, script.js::alert, script.js::catch, script.js::error, script.js::alert
+script.js::renderDanceModels --> script.js::getElementById, script.js::createDocumentFragment, script.js::createElement, script.js::add, script.js::deleteMudra, script.js::appendChild, script.js::appendChild, script.js::function, script.js::retreiveMudras, script.js::retreiveDanceModels
+script.js::renderListOfMudras --> script.js::getElementById, script.js::createDocumentFragment, script.js::createElement, script.js::add, script.js::deleteMudra, script.js::appendChild, script.js::appendChild
+script.js::retreiveDanceModels --> script.js::getElementById, script.js::getElementById, script.js::time, script.js::fetch, script.js::timeEnd, script.js::json, script.js::isArray, script.js::renderDanceModels, script.js::catch, script.js::error
+script.js::retreiveMudras --> script.js::getElementById, script.js::getElementById, script.js::time, script.js::fetch, script.js::time, script.js::json, script.js::isArray, script.js::renderListOfMudras, script.js::getElementById, script.js::catch, script.js::error, script.js::getElementById
+script.js::runScene --> script.js::Scene, script.js::ArcRotateCamera, script.js::Zero, script.js::attachControl, script.js::HemisphericLight, script.js::Vector3, script.js::runRenderLoop, script.js::render, script.js::addEventListener, script.js::function, script.js::resize, script.js::getElementById, script.js::addEventListener, script.js::function, script.js::createObjectURL, script.js::dispose, script.js::Append, script.js::function, script.js::log, script.js::function, script.js::error
+script.js::displayQuestions --> script.js::getElementById, script.js::createElement, script.js::add, script.js::addEventListener, script.js::encodeURIComponent, script.js::encodeURIComponent, script.js::encodeURIComponent, script.js::encodeURIComponent, script.js::encodeURIComponent, script.js::encodeURIComponent, script.js::appendChild
+script.js::fetchQuestions --> script.js::fetch, script.js::OK, script.js::Error, script.js::json, script.js::isArray, script.js::displayQuestions, script.js::error, script.js::catch, script.js::error
+script.js::shuffle --> script.js::floor, script.js::random, script.js::flatMap, script.js::createElement, script.js::add, script.js::calc, script.js::calc, script.js::createElement, script.js::add, script.js::createElement, script.js::add, script.js::createElement, script.js::add, script.js::createElement, script.js::appendChild, script.js::appendChild, script.js::appendChild, script.js::appendChild, script.js::appendChild, script.js::setAttribute, script.js::querySelectorAll, script.js::addEventListener, script.js::contains, script.js::contains, script.js::add, script.js::push, script.js::getAttribute, script.js::getAttribute, script.js::setTimeout, script.js::add, script.js::add, script.js::remove, script.js::remove, script.js::querySelector, script.js::addEventListener, script.js::reload
+script.js::shuffle --> script.js::floor, script.js::random, script.js::flatMap, script.js::createElement, script.js::add, script.js::calc, script.js::calc, script.js::createElement, script.js::add, script.js::createElement, script.js::add, script.js::createElement, script.js::add, script.js::createElement, script.js::appendChild, script.js::appendChild, script.js::appendChild, script.js::appendChild, script.js::appendChild, script.js::setAttribute
+script.js::startTimer --> script.js::querySelector, script.js::setInterval
+script.js::stopTimer --> script.js::clearInterval, script.js::querySelectorAll, script.js::addEventListener, script.js::startTimer, script.js::contains, script.js::contains, script.js::add, script.js::push, script.js::getAttribute, script.js::getAttribute, script.js::setTimeout, script.js::add, script.js::add, script.js::remove, script.js::remove, script.js::querySelectorAll, script.js::querySelector, script.js::addEventListener, script.js::clearInterval, script.js::reload
+popup_script.js::closePopup --> popup_script.js::getElementById, popup_script.js::remove, popup_script.js::getElementById, popup_script.js::remove
+script.js::closePopup --> script.js::getElementById, script.js::remove
+script.js::Validate --> script.js::getElementById, script.js::getElementById, script.js::fetch, script.js::stringify, script.js::json, script.js::log, script.js::error, script.js::alert, script.js::catch, script.js::error, script.js::alert
+script.js::Validate1 --> script.js::getElementById, script.js::getElementById, script.js::fetch, script.js::stringify, script.js::json, script.js::log, script.js::log, script.js::log, script.js::log, script.js::log, script.js::alert, script.js::alert, script.js::catch, script.js::error, script.js::alert
+map-interact.js::isTouchEnabled --> map-interact.js::return, map-interact.js::jQuery, map-interact.js::function, map-interact.js::jQuery, map-interact.js::each, map-interact.js::function, map-interact.js::tryaddEvent, map-interact.js::jQuery, map-interact.js::attr
+map-interact.js::tryaddEvent --> map-interact.js::jQuery, map-interact.js::split, map-interact.js::jQuery, map-interact.js::slice, map-interact.js::join, map-interact.js::jQuery, map-interact.js::attr, map-interact.js::attr, map-interact.js::attr, map-interact.js::attr, map-interact.js::hover, map-interact.js::function, map-interact.js::jQuery, map-interact.js::show, map-interact.js::html, map-interact.js::css, map-interact.js::function, map-interact.js::jQuery, map-interact.js::hide, map-interact.js::jQuery, map-interact.js::css, map-interact.js::mousedown, map-interact.js::function, map-interact.js::jQuery, map-interact.js::css, map-interact.js::mouseup, map-interact.js::function, map-interact.js::jQuery, map-interact.js::css, map-interact.js::open, map-interact.js::jQuery, map-interact.js::modal, map-interact.js::mousemove, map-interact.js::function, map-interact.js::jQuery, map-interact.js::outerWidth, map-interact.js::jQuery, map-interact.js::outerHeight, map-interact.js::jQuery, map-interact.js::scrollLeft, map-interact.js::jQuery, map-interact.js::width, map-interact.js::jQuery, map-interact.js::scrollTop, map-interact.js::jQuery
+renderarala.js::getModelfromDB --> renderarala.js::fetch, renderarala.js::Error, renderarala.js::json, renderarala.js::catch, renderarala.js::error, renderarala.js::function, renderarala.js::Scene, renderarala.js::ArcRotateCamera, renderarala.js::Zero, renderarala.js::attachControl, renderarala.js::HemisphericLight, renderarala.js::Vector3, renderarala.js::Blob, renderarala.js::Uint8Array, renderarala.js::createObjectURL, renderarala.js::Append, renderarala.js::log, renderarala.js::error, renderarala.js::error
+renderarala.js::openScene --> renderarala.js::modelScene, renderarala.js::runRenderLoop, renderarala.js::render, renderarala.js::addEventListener, renderarala.js::function, renderarala.js::resize, renderarala.js::querySelector, renderarala.js::addEventListener, renderarala.js::setItem, renderarala.js::alert
+renderardhachandra.js::getModelfromDB --> renderardhachandra.js::fetch, renderardhachandra.js::Error, renderardhachandra.js::json, renderardhachandra.js::catch, renderardhachandra.js::error, renderardhachandra.js::function, renderardhachandra.js::Scene, renderardhachandra.js::ArcRotateCamera, renderardhachandra.js::Zero, renderardhachandra.js::attachControl, renderardhachandra.js::HemisphericLight, renderardhachandra.js::Vector3, renderardhachandra.js::Blob, renderardhachandra.js::Uint8Array, renderardhachandra.js::createObjectURL, renderardhachandra.js::Append, renderardhachandra.js::log, renderardhachandra.js::error, renderardhachandra.js::error
+renderardhachandra.js::openScene --> renderardhachandra.js::modelScene, renderardhachandra.js::runRenderLoop, renderardhachandra.js::render, renderardhachandra.js::addEventListener, renderardhachandra.js::function, renderardhachandra.js::resize, renderardhachandra.js::querySelector, renderardhachandra.js::addEventListener, renderardhachandra.js::setItem, renderardhachandra.js::alert
+renderardhapataka.js::modelScene --> renderardhapataka.js::Scene, renderardhapataka.js::ArcRotateCamera, renderardhapataka.js::Zero, renderardhapataka.js::attachControl, renderardhapataka.js::HemisphericLight, renderardhapataka.js::Vector3, renderardhapataka.js::Append, renderardhapataka.js::runRenderLoop, renderardhapataka.js::render, renderardhapataka.js::addEventListener, renderardhapataka.js::function, renderardhapataka.js::resize
+renderchandrakala.js::getModelfromDB --> renderchandrakala.js::fetch, renderchandrakala.js::Error, renderchandrakala.js::json, renderchandrakala.js::catch, renderchandrakala.js::error, renderchandrakala.js::function, renderchandrakala.js::Scene, renderchandrakala.js::ArcRotateCamera, renderchandrakala.js::Zero, renderchandrakala.js::attachControl, renderchandrakala.js::HemisphericLight, renderchandrakala.js::Vector3, renderchandrakala.js::Blob, renderchandrakala.js::Uint8Array, renderchandrakala.js::createObjectURL, renderchandrakala.js::Append, renderchandrakala.js::log, renderchandrakala.js::error, renderchandrakala.js::error
+renderchandrakala.js::openScene --> renderchandrakala.js::modelScene, renderchandrakala.js::runRenderLoop, renderchandrakala.js::render, renderchandrakala.js::addEventListener, renderchandrakala.js::function, renderchandrakala.js::resize, renderchandrakala.js::querySelector, renderchandrakala.js::addEventListener, renderchandrakala.js::setItem, renderchandrakala.js::alert
+renderkartarimukha.js::getModelfromDB --> renderkartarimukha.js::fetch, renderkartarimukha.js::Error, renderkartarimukha.js::json, renderkartarimukha.js::catch, renderkartarimukha.js::error, renderkartarimukha.js::function, renderkartarimukha.js::Scene, renderkartarimukha.js::ArcRotateCamera, renderkartarimukha.js::Zero, renderkartarimukha.js::attachControl, renderkartarimukha.js::HemisphericLight, renderkartarimukha.js::Vector3, renderkartarimukha.js::Blob, renderkartarimukha.js::Uint8Array, renderkartarimukha.js::createObjectURL, renderkartarimukha.js::Append, renderkartarimukha.js::log, renderkartarimukha.js::error, renderkartarimukha.js::error
+renderkartarimukha.js::openScene --> renderkartarimukha.js::modelScene, renderkartarimukha.js::runRenderLoop, renderkartarimukha.js::render, renderkartarimukha.js::addEventListener, renderkartarimukha.js::function, renderkartarimukha.js::resize, renderkartarimukha.js::querySelector, renderkartarimukha.js::addEventListener, renderkartarimukha.js::setItem, renderkartarimukha.js::alert
+renderkatamukha.js::getModelfromDB --> renderkatamukha.js::fetch, renderkatamukha.js::Error, renderkatamukha.js::json, renderkatamukha.js::catch, renderkatamukha.js::error, renderkatamukha.js::function, renderkatamukha.js::Scene, renderkatamukha.js::ArcRotateCamera, renderkatamukha.js::Zero, renderkatamukha.js::attachControl, renderkatamukha.js::HemisphericLight, renderkatamukha.js::Vector3, renderkatamukha.js::Blob, renderkatamukha.js::Uint8Array, renderkatamukha.js::createObjectURL, renderkatamukha.js::Append, renderkatamukha.js::log, renderkatamukha.js::error, renderkatamukha.js::error
+renderkatamukha.js::openScene --> renderkatamukha.js::modelScene, renderkatamukha.js::runRenderLoop, renderkatamukha.js::render, renderkatamukha.js::addEventListener, renderkatamukha.js::function, renderkatamukha.js::resize, renderkatamukha.js::querySelector, renderkatamukha.js::addEventListener, renderkatamukha.js::setItem, renderkatamukha.js::alert
+rendermrigashirsha.js::getModelfromDB --> rendermrigashirsha.js::fetch, rendermrigashirsha.js::Error, rendermrigashirsha.js::json, rendermrigashirsha.js::catch, rendermrigashirsha.js::error, rendermrigashirsha.js::function, rendermrigashirsha.js::Scene, rendermrigashirsha.js::ArcRotateCamera, rendermrigashirsha.js::Zero, rendermrigashirsha.js::attachControl, rendermrigashirsha.js::HemisphericLight, rendermrigashirsha.js::Vector3, rendermrigashirsha.js::Blob, rendermrigashirsha.js::Uint8Array, rendermrigashirsha.js::createObjectURL, rendermrigashirsha.js::Append, rendermrigashirsha.js::log, rendermrigashirsha.js::error, rendermrigashirsha.js::error
+rendermrigashirsha.js::openScene --> rendermrigashirsha.js::modelScene, rendermrigashirsha.js::runRenderLoop, rendermrigashirsha.js::render, rendermrigashirsha.js::addEventListener, rendermrigashirsha.js::function, rendermrigashirsha.js::resize, rendermrigashirsha.js::querySelector, rendermrigashirsha.js::addEventListener, rendermrigashirsha.js::setItem, rendermrigashirsha.js::alert
+renderpataka.js::getModelfromDB --> renderpataka.js::fetch, renderpataka.js::Error, renderpataka.js::json, renderpataka.js::catch, renderpataka.js::error, renderpataka.js::function, renderpataka.js::Scene, renderpataka.js::ArcRotateCamera, renderpataka.js::Zero, renderpataka.js::attachControl, renderpataka.js::HemisphericLight, renderpataka.js::Vector3, renderpataka.js::Blob, renderpataka.js::Uint8Array, renderpataka.js::createObjectURL, renderpataka.js::Append, renderpataka.js::log, renderpataka.js::error, renderpataka.js::error
+renderpataka.js::openScene --> renderpataka.js::modelScene, renderpataka.js::runRenderLoop, renderpataka.js::render, renderpataka.js::addEventListener, renderpataka.js::function, renderpataka.js::resize, renderpataka.js::querySelector, renderpataka.js::addEventListener, renderpataka.js::setItem, renderpataka.js::alert
+rendersarpashirsha.js::getModelfromDB --> rendersarpashirsha.js::fetch, rendersarpashirsha.js::Error, rendersarpashirsha.js::json, rendersarpashirsha.js::catch, rendersarpashirsha.js::error, rendersarpashirsha.js::function, rendersarpashirsha.js::Scene, rendersarpashirsha.js::ArcRotateCamera, rendersarpashirsha.js::Zero, rendersarpashirsha.js::attachControl, rendersarpashirsha.js::HemisphericLight, rendersarpashirsha.js::Vector3, rendersarpashirsha.js::Blob, rendersarpashirsha.js::Uint8Array, rendersarpashirsha.js::createObjectURL, rendersarpashirsha.js::Append, rendersarpashirsha.js::log, rendersarpashirsha.js::error, rendersarpashirsha.js::error
+rendersarpashirsha.js::openScene --> rendersarpashirsha.js::modelScene, rendersarpashirsha.js::runRenderLoop, rendersarpashirsha.js::render, rendersarpashirsha.js::addEventListener, rendersarpashirsha.js::function, rendersarpashirsha.js::resize, rendersarpashirsha.js::querySelector, rendersarpashirsha.js::addEventListener, rendersarpashirsha.js::setItem, rendersarpashirsha.js::alert
+rendershukatunda.js::getModelfromDB --> rendershukatunda.js::fetch, rendershukatunda.js::Error, rendershukatunda.js::json, rendershukatunda.js::catch, rendershukatunda.js::error, rendershukatunda.js::function, rendershukatunda.js::Scene, rendershukatunda.js::ArcRotateCamera, rendershukatunda.js::Zero, rendershukatunda.js::attachControl, rendershukatunda.js::HemisphericLight, rendershukatunda.js::Vector3, rendershukatunda.js::Blob, rendershukatunda.js::Uint8Array, rendershukatunda.js::createObjectURL, rendershukatunda.js::Append, rendershukatunda.js::log, rendershukatunda.js::error, rendershukatunda.js::error
+rendershukatunda.js::openScene --> rendershukatunda.js::modelScene, rendershukatunda.js::runRenderLoop, rendershukatunda.js::render, rendershukatunda.js::addEventListener, rendershukatunda.js::function, rendershukatunda.js::resize, rendershukatunda.js::querySelector, rendershukatunda.js::addEventListener, rendershukatunda.js::setItem, rendershukatunda.js::alert
+rendersimhamukha.js::getModelfromDB --> rendersimhamukha.js::fetch, rendersimhamukha.js::Error, rendersimhamukha.js::json, rendersimhamukha.js::catch, rendersimhamukha.js::error, rendersimhamukha.js::function, rendersimhamukha.js::Scene, rendersimhamukha.js::ArcRotateCamera, rendersimhamukha.js::Zero, rendersimhamukha.js::attachControl, rendersimhamukha.js::HemisphericLight, rendersimhamukha.js::Vector3, rendersimhamukha.js::Blob, rendersimhamukha.js::Uint8Array, rendersimhamukha.js::createObjectURL, rendersimhamukha.js::Append, rendersimhamukha.js::log, rendersimhamukha.js::error, rendersimhamukha.js::error
+rendersimhamukha.js::openScene --> rendersimhamukha.js::modelScene, rendersimhamukha.js::runRenderLoop, rendersimhamukha.js::render, rendersimhamukha.js::addEventListener, rendersimhamukha.js::function, rendersimhamukha.js::resize, rendersimhamukha.js::querySelector, rendersimhamukha.js::addEventListener, rendersimhamukha.js::setItem, rendersimhamukha.js::alert
+rendersuchi.js::getModelfromDB --> rendersuchi.js::fetch, rendersuchi.js::Error, rendersuchi.js::json, rendersuchi.js::catch, rendersuchi.js::error, rendersuchi.js::function, rendersuchi.js::Scene, rendersuchi.js::ArcRotateCamera, rendersuchi.js::Zero, rendersuchi.js::attachControl, rendersuchi.js::HemisphericLight, rendersuchi.js::Vector3, rendersuchi.js::Blob, rendersuchi.js::Uint8Array, rendersuchi.js::createObjectURL, rendersuchi.js::Append, rendersuchi.js::log, rendersuchi.js::error, rendersuchi.js::error
+rendersuchi.js::openScene --> rendersuchi.js::modelScene, rendersuchi.js::runRenderLoop, rendersuchi.js::render, rendersuchi.js::addEventListener, rendersuchi.js::function, rendersuchi.js::resize, rendersuchi.js::querySelector, rendersuchi.js::addEventListener, rendersuchi.js::setItem, rendersuchi.js::alert
+rendertripataka.js::getModelfromDB --> rendertripataka.js::fetch, rendertripataka.js::Error, rendertripataka.js::json, rendertripataka.js::catch, rendertripataka.js::error, rendertripataka.js::function, rendertripataka.js::Scene, rendertripataka.js::ArcRotateCamera, rendertripataka.js::Zero, rendertripataka.js::attachControl, rendertripataka.js::HemisphericLight, rendertripataka.js::Vector3, rendertripataka.js::Blob, rendertripataka.js::Uint8Array, rendertripataka.js::createObjectURL, rendertripataka.js::Append, rendertripataka.js::log, rendertripataka.js::error, rendertripataka.js::error
+rendertripataka.js::openScene --> rendertripataka.js::modelScene, rendertripataka.js::runRenderLoop, rendertripataka.js::render, rendertripataka.js::addEventListener, rendertripataka.js::function, rendertripataka.js::resize, rendertripataka.js::getElementById, rendertripataka.js::addEventListener, rendertripataka.js::setItem, rendertripataka.js::alert, rendertripataka.js::toLocaleUpperCase
+script.js::openModal --> script.js::url, script.js::addEventListener, script.js::function, script.js::querySelectorAll, script.js::addEventListener, script.js::function, script.js::toLowerCase, script.js::addEventListener, script.js::function, script.js::log
+script.js::showProgress --> script.js::getItem, script.js::getElementById, script.js::getElementById, script.js::addEventListener, script.js::function, script.js::clear, script.js::querySelector, script.js::addEventListener, script.js::log, script.js::clear
+script.js::toggleVisibility --> script.js::log, script.js::querySelector, script.js::querySelector, script.js::remove, script.js::add, script.js::remove, script.js::add, script.js::addEventListener, script.js::getElementById, script.js::addEventListener, script.js::async, script.js::preventDefault, script.js::getElementById, script.js::getElementById, script.js::getElementById, script.js::getElementById, script.js::getElementById, script.js::getElementById, script.js::getElementById, script.js::getElementById, script.js::alert, script.js::fetch, script.js::stringify, script.js::json, script.js::alert, script.js::catch, script.js::alert, script.js::error
+script.js::analyzeFrequency --> script.js::Uint8Array, script.js::getByteFrequencyData, script.js::getDominantFrequency, script.js::getElementById, script.js::getElementById, script.js::getElementById, script.js::clearInterval, script.js::resetStartButton
+script.js::disableScroll --> script.js::preventDefault, script.js::addEventListener, script.js::addEventListener, script.js::addEventListener, script.js::addEventListener, script.js::removeEventListener, script.js::removeEventListener
+script.js::displayFileName --> script.js::addEventListener, script.js::alert, script.js::startAnalysis, script.js::getElementById, script.js::Engine, script.js::getElementById, script.js::getElementById, script.js::getElementById, script.js::getElementById, script.js::getElementById, script.js::getElementById, script.js::getElementById, script.js::getElementById, script.js::getElementById, script.js::getElementById, script.js::getElementById, script.js::getElementById, script.js::getElementById, script.js::getElementById
+script.js::getDominantFrequency --> script.js::round, script.js::addEventListener, script.js::reload
+script.js::getRandomIndex --> script.js::floor, script.js::random
+script.js::getS1 --> script.js::getRandomIndex, script.js::includes, script.js::push, script.js::log, script.js::push, script.js::getRandomIndex, script.js::push, script.js::push, script.js::push, script.js::push, script.js::getRandomIndex, script.js::log
+script.js::getS2 --> script.js::getRandomIndex, script.js::includes, script.js::push, script.js::log, script.js::push, script.js::getRandomIndex, script.js::push, script.js::push, script.js::push, script.js::push, script.js::getRandomIndex, script.js::log
+script.js::getS3 --> script.js::getRandomIndex, script.js::includes, script.js::push, script.js::log, script.js::push, script.js::getRandomIndex, script.js::push, script.js::push, script.js::push, script.js::push, script.js::getRandomIndex, script.js::log
+script.js::getSequence --> script.js::floor, script.js::random, script.js::log, script.js::getS1, script.js::getS2, script.js::getS3
+script.js::getarray --> script.js::push, script.js::getRandomIndex, script.js::log, script.js::push, script.js::getRandomIndex, script.js::push, script.js::getRandomIndex, script.js::log
+script.js::makeMainScene --> script.js::Scene, script.js::ArcRotateCamera, script.js::Zero, script.js::attachControl, script.js::HemisphericLight, script.js::Vector3, script.js::async, script.js::error, script.js::error, script.js::dispose, script.js::Promise, script.js::Append, script.js::log, script.js::resolve, script.js::Promise, script.js::setTimeout
+script.js::renderOnSmallCanvas --> script.js::Engine, script.js::Scene, script.js::ArcRotateCamera, script.js::Zero, script.js::HemisphericLight, script.js::Vector3, script.js::attachControl, script.js::Append, script.js::log, script.js::runRenderLoop, script.js::render, script.js::makeMainScene, script.js::runRenderLoop, script.js::render, script.js::addEventListener, script.js::resize
+script.js::startAnalysis --> script.js::FileReader, script.js::async, script.js::decodeAudioData, script.js::alert, script.js::resetStartButton, script.js::getSequence, script.js::create, script.js::loadBlob, script.js::disconnect, script.js::createBufferSource, script.js::connect, script.js::connect, script.js::play, script.js::start, script.js::renderSequentially, script.js::renderOnSmallCanvas, script.js::setInterval, script.js::analyzeFrequency, script.js::async, script.js::clearInterval, script.js::resetStartButton, script.js::catch, script.js::error, script.js::alert, script.js::resetStartButton, script.js::readAsArrayBuffer

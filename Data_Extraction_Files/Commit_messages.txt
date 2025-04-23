@@ -1,0 +1,12 @@
+Commit Messages:
+--------------------------------------------------
+Message: Merge branch 'main' of https://github.com/Mr-Suave/kalavriddhi.com
+--------------------------------------------------
+Message: small changes
+--------------------------------------------------
+Message: Update README.md
+--------------------------------------------------
+Message: removed ugly models
+--------------------------------------------------
+Message: Update README.md
+--------------------------------------------------

@@ -83,7 +83,7 @@ const renderOnSmallCanvas=()=>{
             console.log(`Model:${dance_sequence[index]}loaded`);
         });
         engineSmall.runRenderLoop(()=>{
-            sceneSmall.render();
+      clesceneSmall.render();
         });
     })
 };
